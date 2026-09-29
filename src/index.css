@@ -9,7 +9,7 @@
   body {
     @apply bg-white text-ink-700 font-sans antialiased;
   }
-  h1, h2, h3, h4 {
+  h1, h2, h3, h4, h5 {
     @apply font-display tracking-tight text-ink-900;
   }
 }
@@ -27,11 +27,14 @@
   .text-balance {
     text-wrap: balance;
   }
-  .gradient-text {
-    @apply bg-gradient-to-r from-brand-600 via-brand-500 to-teal-400 bg-clip-text text-transparent;
-  }
   .glass {
     backdrop-filter: blur(12px);
-    background: rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.85);
   }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1 !important; transform: none !important; }
+  .animate-float { animation: none !important; }
+  .animate-fade-up, .animate-fade-in, .animate-scale-in { animation: none !important; opacity: 1 !important; }
 }
