@@ -49,7 +49,7 @@ export default function About() {
                 <Mail className="w-5 h-5 text-brand-600 shrink-0 mt-0.5" />
                 <div>
                   <div className="text-sm font-600 text-ink-900">Email</div>
-                  <div className="text-sm text-ink-500 mt-0.5 break-all">service.navsanjivan10@gmail.com</div>
+                  <div className="text-sm text-ink-500 mt-0.5 break-all">Navsanjivani10@gmail.com</div>
                 </div>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-surface border border-brand-100">
@@ -63,7 +63,7 @@ export default function About() {
                 <Phone className="w-5 h-5 text-brand-600 shrink-0 mt-0.5" />
                 <div>
                   <div className="text-sm font-600 text-ink-900">Phone</div>
-                  <div className="text-sm text-ink-500 mt-0.5">Available on request</div>
+                  <div className="text-sm text-ink-500 mt-0.5">+91 87965 93557</div>
                 </div>
               </div>
             </div>

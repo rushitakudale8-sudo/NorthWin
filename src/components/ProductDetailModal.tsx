@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import type { Product } from '@/data/products';
 import { X, ShoppingBag, RotateCw, HelpCircle, Check, Truck, ShieldCheck } from 'lucide-react';
 
-const ENQUIRY_EMAIL = 'service.navsanjivan10@gmail.com';
+const ENQUIRY_EMAIL = 'Navsanjivani10@gmail.com';
 
 interface ProductDetailModalProps {
   product: Product;

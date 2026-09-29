@@ -58,10 +58,10 @@ export default function Hero() {
                 <MapPin className="w-4 h-4 text-brand-600" />
                 Kothrud, Pune
               </div>
-              <div className="flex items-center gap-2 text-ink-600">
+              <a href="tel:+918796593557" className="flex items-center gap-2 text-ink-600 hover:text-brand-700 transition-colors">
                 <Phone className="w-4 h-4 text-brand-600" />
-                +91 available on request
-              </div>
+                +91 87965 93557
+              </a>
             </div>
           </div>
 

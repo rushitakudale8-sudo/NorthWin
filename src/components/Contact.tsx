@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { Send, Check, Mail, MapPin } from 'lucide-react';
+import { Send, Check, Mail, MapPin, Phone } from 'lucide-react';
 
-const ENQUIRY_EMAIL = 'service.navsanjivan10@gmail.com';
+const ENQUIRY_EMAIL = 'Navsanjivani10@gmail.com';
 
 export default function Contact() {
   const [sent, setSent] = useState(false);
@@ -59,6 +59,15 @@ export default function Contact() {
                 <div>
                   <div className="text-sm text-brand-200">Visit us</div>
                   <div className="font-500 text-white">Rambag Colony, Paud Road, Kothrud, Pune – 411038</div>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <div className="grid place-items-center w-11 h-11 rounded-xl bg-white/10 text-brand-200">
+                  <Phone className="w-5 h-5" />
+                </div>
+                <div>
+                  <div className="text-sm text-brand-200">Call us</div>
+                  <a href="tel:+918796593557" className="font-500 text-white hover:text-brand-200 transition-colors">+91 87965 93557</a>
                 </div>
               </div>
             </div>

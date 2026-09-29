@@ -52,9 +52,12 @@ export default function Footer() {
             <h4 className="text-sm font-600 text-white uppercase tracking-widest mb-4">Contact</h4>
             <ul className="space-y-2.5">
               <li>
-                <a href="mailto:service.navsanjivan10@gmail.com" className="text-sm hover:text-brand-300 transition-colors break-all">
-                  service.navsanjivan10@gmail.com
+                <a href="mailto:Navsanjivani10@gmail.com" className="text-sm hover:text-brand-300 transition-colors break-all">
+                  Navsanjivani10@gmail.com
                 </a>
+              </li>
+              <li>
+                <a href="tel:+918796593557" className="text-sm hover:text-brand-300 transition-colors">+91 87965 93557</a>
               </li>
               <li className="text-sm">Mon–Sat: 9:30 AM – 8:00 PM</li>
             </ul>

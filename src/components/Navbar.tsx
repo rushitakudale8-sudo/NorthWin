@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Menu, X, Search, Mail } from 'lucide-react';
+import { Menu, X, Search, Mail, Phone } from 'lucide-react';
 
 const links = [
   { label: 'Home', href: '#home' },
@@ -74,6 +74,13 @@ export default function Navbar({ searchQuery, onSearchChange }: NavbarProps) {
             <Search className="w-5 h-5" />
           </button>
           <a
+            href="tel:+918796593557"
+            className="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 rounded-full border border-brand-200 text-brand-800 text-sm font-500 hover:bg-brand-50 transition-colors"
+          >
+            <Phone className="w-4 h-4" />
+            87965 93557
+          </a>
+          <a
             href="#contact"
             className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-brand-900 text-white text-sm font-500 hover:bg-brand-700 transition-colors"
           >
@@ -122,6 +129,16 @@ export default function Navbar({ searchQuery, onSearchChange }: NavbarProps) {
               {l.label}
             </a>
           ))}
+          <a
+            href="tel:+918796593557"
+            onClick={() => setOpen(false)}
+            className="py-3 text-center rounded-full border border-brand-200 text-brand-800 font-500"
+          >
+            <span className="inline-flex items-center gap-1.5">
+              <Phone className="w-4 h-4" />
+              Call: 87965 93557
+            </span>
+          </a>
           <a
             href="#contact"
             onClick={() => setOpen(false)}
